@@ -2,13 +2,12 @@ const fs = require("fs");
 const { BrowserWindow, dialog } = require("electron").remote;
 
 //html内の要素取得とリスナーの設定
-document.querySelector("#openFile").addEventListener("click", () => {
+document.querySelector("#js-openDir").addEventListener("click", () => {
   openDirectory();
 });
 
-const preview = document.getElementById("preview");
 
-//Directoryボタンが押されたとき（ファイル名取得まで）
+//保存先ボタンが押されたとき（ディレクトリ名取得まで）
 function openDirectory() {
   const win = BrowserWindow.getFocusedWindow();
   dialog
