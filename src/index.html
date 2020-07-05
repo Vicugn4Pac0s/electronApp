@@ -2,22 +2,35 @@
   <head>
     <meta charset="UTF-8" />
     <title>Hello World!</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
   </head>
 
   <body>
-    <h1>初めてのElectron</h1>
-    We are using node
-    <script>
-      document.write(process.versions.node);
-    </script>
-    , Chrome
-    <script>
-      document.write(process.versions.chrome);
-    </script>
-    , and Electron
-    <script>
-      document.write(process.versions.electron);
-    </script>
-    .
+    <div class="wrap">
+      <header class="header">
+        <h1 class="header_ttl">フォルダセット作成</h1>
+      </header>
+
+      <!-- main -->
+      <main class="main">
+
+        <!-- openDir -->
+        <div class="openDir">
+          <div class="openDir_btn">
+            <button id="openFile">保存先</button>
+          </div>
+          <div class="openDir_name">
+            <span id="js-dirPath" data-path="">ここにフォルダ名</span>
+          </div>
+        </div>        
+        <!-- openDir -->
+
+
+      </main>  
+      <!-- main end -->
+
+    </div>
+    <script src="./js/index.js"></script>
   </body>
 </html>

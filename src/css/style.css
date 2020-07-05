@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+
+
+.wrap {
+  padding: 40px 20px;
+}
+
+.header {
+  padding: 0 0 20px;
+}
+.header_ttl {
+  font-size: 21px;
+}
+
+.main {
+
+}
+
+.openDir {
+  max-width: 360px;
+}
+.openDir:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.openDir_btn {
+  float: left;
+  margin-right: 5%;
+  width: 20%;
+}
+.openDir_btn button {
+  cursor: pointer;
+  font-size: 13px;
+  padding: 5px 0;
+  line-height: 1;
+  width: 100%;
+}
+.openDir_name {
+  float: left;
+  width: 75%;
+}
+.openDir_name span {
+  display: inline-block;
+  font-size: 13px;
+  line-height: 1;
+  padding: 7px 0;
+}
