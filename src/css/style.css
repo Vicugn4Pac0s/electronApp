@@ -1,6 +1,13 @@
 @charset "UTF-8";
 
-
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin: 0;
+}
 
 .wrap {
   padding: 40px 20px;
@@ -14,7 +21,6 @@
 }
 
 .main {
-
 }
 
 .openDir {
@@ -47,4 +53,36 @@
   font-size: 13px;
   line-height: 1;
   padding: 7px 0;
+}
+
+/* dirTree */
+.dirTree {
+  padding: 20px 0;
+}
+.tree li {
+}
+.tree_dirName {
+  margin-bottom: 5px;
+}
+.tree_addDir {
+  cursor: pointer;
+  color: green;
+}
+.tree_dirName input {
+  width: 80px;
+}
+.tree_01 > li {
+  padding-bottom: 20px;
+}
+.tree_02 {
+  padding-left: 40px;
+}
+.tree_03 {
+  padding-left: 40px;
+}
+.tree_04 {
+  padding-left: 40px;
+}
+.tree_05 {
+  padding-left: 40px;
 }

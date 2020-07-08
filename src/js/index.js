@@ -29,7 +29,6 @@ function openDirectory() {
       }
     });
 }
-
 function setDirectory(filePath) {
   var target = document.getElementById("js-dirPath");
   if (filePath) {
